@@ -6,13 +6,13 @@ function fibonacci (n) {
   if (n <= 1) {
     return 1
   }
-
   return fibonacci(n - 1) + fibonacci(n - 2)
 }
 
 const link = new Link({
-  grape: 'ws://127.0.0.1:30001'
+  grape: 'http://127.0.0.1:30001'
 })
+
 link.start()
 
 const peer = new PeerRPCServer(link, {})
