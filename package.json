@@ -1,6 +1,6 @@
 {
   "name": "grenache-nodejs-example-fib-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple example for grenache",
   "main": "server.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "author": "Robert Kowalski <rok@kowalski.gd>",
   "license": "MIT",
   "dependencies": {
-    "grenache-nodejs-ws": "^0.1.4"
+    "grenache-nodejs-link": "^0.5.0",
+    "grenache-nodejs-ws": "^0.5.0"
   }
 }

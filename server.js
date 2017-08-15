@@ -1,6 +1,7 @@
 'use strict'
 
-const { Link, PeerRPCServer }  = require('grenache-nodejs-ws')
+const { PeerRPCServer }  = require('grenache-nodejs-ws')
+const Link = require('grenache-nodejs-link')
 
 function fibonacci (n) {
   if (n <= 1) {
